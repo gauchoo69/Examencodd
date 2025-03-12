@@ -8,7 +8,7 @@ Para documentar los pasos seguidos en el desarrollo, se crea una rama especial:
 ***
 git checkout -b readme
 
-Se añade un archivo `Readme.md` donde se registran los comandos y justificaciones de cada decisión.
+Se añade un archivo Readme.md donde se registran los comandos y justificaciones de cada decisión.
 
 ## **2. Creación y fusión de ramas de desarrollo**
 El proyecto se divide en varias ramas:
@@ -38,7 +38,7 @@ o, si aún no se ha fusionado:
 git reset --hard HEAD~1
 
 Esto deshace el último commit y evita incluir cambios no deseados.
-
+ <br><H1>(DATOS)
 ## **4. Etiquetado de la versión y creación de la release**
 Una vez finalizada la fusión, se etiqueta el último commit como v1.0:
 
