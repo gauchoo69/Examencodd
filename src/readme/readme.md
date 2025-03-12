@@ -25,7 +25,7 @@ Cada una de estas ramas se desarrolla y se fusiona a `main` siguiendo estos paso
 - git merge interface
 
 Si hay conflictos, se resuelven desde la interfaz de IntelliJ IDEA o manualmente en los archivos afectados.
-
+<br><h1>(Interface)
 ## **3. Revisión del código antes de la fusión final**
 Antes de finalizar la fusión, se revisa el código de la rama interface y se detecta que el último commit contiene código que no debe incluirse. Para evitarlo:
 
@@ -39,7 +39,7 @@ git reset --hard HEAD~1
 
 Esto deshace el último commit y evita incluir cambios no deseados.
 
-(interface)
+
 
 ## **4. Etiquetado de la versión y creación de la release**
 Una vez finalizada la fusión, se etiqueta el último commit como v1.0:
