@@ -3,10 +3,10 @@
 # **Documentación del proceso de desarrollo y fusión de ramas**
 
 ## **1. Creación de la rama readme**
-Para documentar los pasos seguidos en el desarrollo, se crea una rama especial:
+**Para documentar los pasos seguidos en el desarrollo, se crea una rama especial:
 
 ***
-git checkout -b readme
+git checkout -b readme**
 
 Se añade un archivo `Readme.md` donde se registran los comandos y justificaciones de cada decisión.
 
@@ -38,6 +38,7 @@ o, si aún no se ha fusionado:
 git reset --hard HEAD~1
 
 Esto deshace el último commit y evita incluir cambios no deseados.
+hola
 
 ## **4. Etiquetado de la versión y creación de la release**
 Una vez finalizada la fusión, se etiqueta el último commit como v1.0:
