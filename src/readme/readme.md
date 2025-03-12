@@ -39,6 +39,8 @@ git reset --hard HEAD~1
 
 Esto deshace el último commit y evita incluir cambios no deseados.
 
+(interface)
+
 ## **4. Etiquetado de la versión y creación de la release**
 Una vez finalizada la fusión, se etiqueta el último commit como v1.0:
 
